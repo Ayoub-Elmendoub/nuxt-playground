@@ -11,5 +11,8 @@
   "devDependencies": {
     "@types/node": "^18",
     "nuxt": "^3.4.1"
+  },
+  "dependencies": {
+    "@readme/openapi-parser": "^2.5.0"
   }
 }
