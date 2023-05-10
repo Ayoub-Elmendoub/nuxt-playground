@@ -1,6 +1,11 @@
-import OpenAPIParser from "@readme/openapi-parser";
+import { generate } from "openapi-typescript-codegen";
+
 export default defineEventHandler(async (event) => {
-  const api = await OpenAPIParser.bundle("data/swagger.yaml");
+  const { params, api } = event.context;
+  // const code = await generate({
+  //   input: "data/swagger.yaml",
+  //   output: "./generated",
+  // });
   return {
     api,
   };
