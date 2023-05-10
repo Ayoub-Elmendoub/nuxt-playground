@@ -9,11 +9,13 @@
     "postinstall": "nuxt prepare"
   },
   "devDependencies": {
+    "@types/archiver": "^5.3.2",
     "@types/node": "^18",
     "nuxt": "^3.4.1"
   },
   "dependencies": {
     "@readme/openapi-parser": "^2.5.0",
+    "archiver": "^5.3.1",
     "lodash-es": "^4.17.21",
     "openapi-types": "^12.1.0",
     "openapi-typescript-codegen": "^0.24.0",
