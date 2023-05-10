@@ -3,6 +3,7 @@ lockfileVersion: 5.4
 specifiers:
   '@readme/openapi-parser': ^2.5.0
   '@types/node': ^18
+  lodash-es: ^4.17.21
   nuxt: ^3.4.1
   openapi-types: ^12.1.0
   openapi-typescript-codegen: ^0.24.0
@@ -10,6 +11,7 @@ specifiers:
 
 dependencies:
   '@readme/openapi-parser': 2.5.0_openapi-types@12.1.0
+  lodash-es: 4.17.21
   openapi-types: 12.1.0
   openapi-typescript-codegen: 0.24.0
   yaml: 2.2.2
@@ -2827,6 +2829,10 @@ packages:
     resolution: {integrity: sha512-SFppqq5p42fe2qcZQqqEOiVRXl+WCP1MdT6k7BDEW1j++sp5fIY+/fdRQitvKgB5BrBcmrs5m/L0v2FrU5MY1g==}
     engines: {node: '>=14'}
     dev: true
+
+  /lodash-es/4.17.21:
+    resolution: {integrity: sha512-mKnC+QJ9pWVzv+C4/U3rRsHapFfHvQFoFB92e52xeyGMcX6/OlIl78je1u8vePzYZSkkogMPJ2yjxxsb89cxyw==}
+    dev: false
 
   /lodash._reinterpolate/3.0.0:
     resolution: {integrity: sha512-xYHt68QRoYGjeeM/XOE1uJtvXQAgvszfBhjV4yvsQH0u2i9I6cI6c6/eG4Hh3UAOVn0y/xAXwmTzEay49Q//HA==}
