@@ -17,8 +17,11 @@
     "@readme/openapi-parser": "^2.5.0",
     "archiver": "^5.3.1",
     "lodash-es": "^4.17.21",
+    "openapi-generator": "^0.1.39",
     "openapi-types": "^12.1.0",
+    "openapi-typescript": "^6.2.4",
     "openapi-typescript-codegen": "^0.24.0",
+    "typescript": "^5.0.4",
     "yaml": "^2.2.2"
   }
 }
